@@ -17,8 +17,6 @@ public class Room {
 
 	// Public functions
 	public void render () {
-		stroke(255);
-
 		rect (
 			this._xAxis,
 			this._yAxis,
@@ -27,12 +25,10 @@ public class Room {
 		);
 	}
 	public void renderText () {
-		stroke (180);
-
 		text (
 			this._name,
-			this._xAxis + 10,
-			(this._yAxis + this._roomHeight) - 10
+			this._xAxis + 3,
+			(this._yAxis + this._roomHeight) - 3
 		);
 	}
 
